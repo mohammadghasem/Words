@@ -1,0 +1,21 @@
+Armin loves words. One day he decided to write all the words with the first letter k of the alphabet,
+he does this by first writing the words with the least number of letters,
+then in the words with the same number of letters, he writes them together in alphabetical order
+(as you know the number It is unlimited words). For example, for k=2 we have:
+a, b, aa, ab, ba, bb, aaa, aab, aba, ...
+He wants you to find the nth letter that is written.
+For example, for k=2, the sixth letter corresponds to the fourth word (ab) and the answer is b.
+
+INPUT:
+The first line of input contains k and n separated by spaces.
+1≤ k ≤26
+1≤ n ≤10^8
+
+OUTPUT:
+Get the nth letter that is written in the output.
+
+Sample input 1:   2  11
+sample output 1:    a
+---------------------------------------
+Sample input 2:   4  8
+sample output 2:    b
